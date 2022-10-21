@@ -62,9 +62,9 @@ jobs:
         REPO_URL:  https://github.com/lirihw/openwrt2102-16m
         REPO_BRANCH: openwrt-21.02
       run: |
-        git clone -b 21.02 --single-branch https://github.com/Lienol/openwrt openwrt
+        git clone  https://github.com/Lienol/openwrt openwrt
         cd openwrt
-        #git clone  https://github.com/fw876/helloworld.git package/ssr
+        git clone  https://github.com/fw876/helloworld.git package/ssr
         git clone  https://github.com/xiaorouji/openwrt-passwall package/passwall
         git clone  https://github.com/kevin-morgan/luci-theme-argon-dark package/lean/luci-theme-argon-dark
         #git clone -b openwrt-21.02 https://github.com/openwrt/openwrt.git openwrt
